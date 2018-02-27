@@ -1,0 +1,30 @@
+<!DOCTYPE>
+<head>
+    <title>Bido 2FA</title> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">    
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css"> 
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'; img-src * data: 'unsafe-inline'; connect-src * 'unsafe-inline'; frame-src *;">    
+</head>
+<body>
+    <div id="navbar"> 
+        <h1>Welcome to Bido's 2FA with Face Recognition</h1>
+        <h2>Lets make some magic happen - part 2</h2>
+    </div>
+    
+    <div>
+        <video class="part2" id="player" autoplay width=640 height="480"></video>
+    </div>
+    <div>
+        <button id="capturebutton" onclick="capButton()">Capture</button>
+        <form id='uploadForm' action='http://127.0.0.1:8081/upload' method='POST'>
+          <input id="fileInput" type="text" name="fileData"/>
+          <input id="capturebutton" type="submit" value="Upload!"s/>
+      </form>    
+    </div> 
+    <div>
+        <canvas class="part2" id="canvas" width=640 height="480"></canvas>                  
+    </div>
+
+    <script src="js/main.js"></script>
+
+</body>

@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(12, 12, 12);
+    align-content: center;
+    color: rgb(230, 230, 230);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1, h2 {
+    font-weight: 100;
+}
+
+input[type=text], select {
+    width: 40%;
+    display: flex;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+}
+
+input[type=password], select {
+    width: 40%;
+    display: flex;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;    
+}
+
+label {
+    display: inline-block;
+    margin: auto;
+}
+
+.login {
+    text-align: center;
+}
+
+.part2 {
+    display: inline-block;
+    align-content: center;
+    align-self: center;
+}
+
+#fileInput {
+    display: none;
+}
+
+#button {
+    background-color: rgb(230, 230, 230);
+    border: none;
+    color: rgb(0, 100, 0);;
+    padding: 10px 20px;
+    margin: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#capturebutton {
+    background-color: rgb(230, 230, 230);
+    border: none;
+    color: rgb(0, 100, 0);;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: auto;
+    display: inline-block;
+    align-content: center;
+    
+}
+
+#navbar {
+    background-color: rgb(15, 15, 15);
+    margin: auto;
+    padding: 6px;
+    text-align: center;
+}
+
+#loginTop {
+    font-size: 18px;
+    padding: 6px;
+}
