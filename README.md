@@ -5,7 +5,7 @@ Name       : Michael Bido-Chavez
 Class      : CSCE 4550
 
 ## Project Synopsis
-
+### This project will be updated Feb. 2019, WIP
 This project is under the biometric portion of security which measures human characteristics
 for authentication. This is important since, as hackers attempt to find new ways to break
 into accounts belonging to other users, computer security experts must find other ways 
